@@ -3,7 +3,8 @@ Ejercicio introductorio de nodos
  
  # Codigo
  
- public class mainclass {
+ public class mainclass 
+ {
 
     public static void main(String[] args) {
        ArbolBinario arbolito = new ArbolBinario();
@@ -28,7 +29,8 @@ Ejercicio introductorio de nodos
       
 }
 
-public class NodoArbol {
+public class NodoArbol 
+{
     int dato;
     NodoArbol hijoIzquierdo, hijoDerecho;
     String nombre;
@@ -42,7 +44,8 @@ public class NodoArbol {
    
 }
 
-public class ArbolBinario {
+public class ArbolBinario 
+{
   NodoArbol raiz;
 public ArbolBinario(){
       raiz=null;
